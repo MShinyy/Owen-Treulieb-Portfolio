@@ -16,3 +16,20 @@
 h1 {
   margin-bottom: 1.3em;
 }
+
+@media screen and (max-width: 890px){
+  /*.scale {*/
+  /*  width: 100%;*/
+  /*  height: auto;*/
+  /*}*/
+
+  .scale-portait {
+    width: 200px;
+  }
+
+  .scale-portait-container {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    float: right;
+  }
+}

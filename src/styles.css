@@ -40,3 +40,13 @@ p {
   color: white;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
+
+@media screen and (max-width: 890px){
+  .content-box {
+    width: 80%;
+  }
+  aside {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+}
